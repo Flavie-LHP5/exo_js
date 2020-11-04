@@ -1,0 +1,7 @@
+.validPassword {
+    border: solid 3px green;
+}
+.unvalidPassword {
+    border: solid 3px red;
+    
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> 
+    <title>Exercice JavaScript partie 5</title>
+</head>
+<body>
+        <form class="needs-validation mt-2" novalidate>
+            <div class="form-row">
+                <div class="col-md-4 mb-3">
+                    <label for="name">name</label>
+                    <input type="text" class="form-control" id="name" onkeyup="validName()" placeholder="ex: Jean">
+                    <span id="errorName"></span>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <label for="mail">mail</label>
+                    <input type="email" class="form-control" id="mail" onkeyup="validMail()"
+                        placeholder="ex: john.doe@gmail.com">
+                    <span id="errorMail"></span>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <label for="age">age</label>
+                    <input type="text" class="form-control" id="age" onkeyup="validAge()" placeholder="ex: 35">
+                    <span id="errorAge"></span>
+                </div>
+            </div>
+        </form>
+    
+
+    <script src="assets/js/script.js"></script>     
+</body>
+</html>

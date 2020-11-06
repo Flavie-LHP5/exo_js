@@ -49,3 +49,4 @@ function validAge() {
         document.getElementById('errorAge').innerHTML = 'erreur';
     }
 }
+

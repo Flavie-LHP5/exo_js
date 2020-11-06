@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/"> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Exercice 5 JavaScript</title>
+</head>
+<body>
+    <div class="container">
+        <div class="h3">Exercice 6</div>
+        <div>Dans un formulaire, faire que les champs aient une bordure noire quand ils ont le focus. La supprimer quand
+            ils perdent le focus.
+        </div>
+        <form class="needs-validation mt-2" novalidate>
+            <div class="form-row">
+                <div class="col-md-4 mb-3">
+                    <label for="name">Nom</label>
+                    <input type="text" class="form-control" id="name" placeholder="ex: Jean">
+                    <span id="errorName"></span>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <label for="mail">Email</label>
+                    <input type="email" class="form-control" id="mail" placeholder="ex: john.doe@gmail.com">
+                    <span id="errorMail"></span>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <label for="age">Age</label>
+                    <input type="text" class="form-control" id="age" placeholder="ex: 35">
+                    <span id="errorAge"></span>
+                </div>
+            </div>
+        </form>
+    </div>
+  
+       
+
+
+    <script src="assets/js/script.js"></script>     
+</body>
+</html>
